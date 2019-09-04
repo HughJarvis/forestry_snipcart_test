@@ -7,6 +7,6 @@ id = "000001"
 image = ""
 name = "Dummy Document A"
 price = "20.00"
-product_url = ""
+product_url = "https://alphaztest.netlify.com"
 
 +++
