@@ -1,4 +1,56 @@
 ---
 label: Product
 hide_body: false
-fields: []
+display_field: name
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+  description: Product id
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  description: Product name
+- name: price
+  type: number
+  label: Price
+  description: Product price
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Product description
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: Product image
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: Product_url
+- name: file_guid
+  type: text
+  config:
+    required: false
+  label: File guid
+pages:
+- content/products/product1.md
+- content/products/product2.md

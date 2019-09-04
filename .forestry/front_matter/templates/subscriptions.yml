@@ -1,0 +1,35 @@
+---
+label: Subscription
+hide_body: true
+display_field: name
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+  description: Subscription id
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: Product url
+- name: payment_interval
+  type: text
+  config:
+    required: false
+  label: Payment interval
