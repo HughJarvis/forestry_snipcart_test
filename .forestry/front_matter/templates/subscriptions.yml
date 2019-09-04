@@ -2,8 +2,28 @@
 label: Subscriptions
 hide_body: true
 fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+  description: Subscription id
 - name: name
   type: text
   config:
     required: false
   label: Name
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: payment_interval
+  type: text
+  config:
+    required: false
+  label: Payment interval
