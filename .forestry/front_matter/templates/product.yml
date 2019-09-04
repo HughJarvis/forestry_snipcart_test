@@ -51,6 +51,6 @@ fields:
     required: false
   label: File guid
 pages:
-- content/products/Document B.md
 - content/products/Document A.md
+- content/products/Document B.md
 - content/products/Dummy Document C.md
