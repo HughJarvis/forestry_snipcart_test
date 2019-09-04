@@ -46,6 +46,11 @@ fields:
   config:
     required: false
   label: Product_url
+- name: file_guid
+  type: text
+  config:
+    required: false
+  label: File guid
 pages:
 - content/products/product2.md
 - content/products/product1.md
