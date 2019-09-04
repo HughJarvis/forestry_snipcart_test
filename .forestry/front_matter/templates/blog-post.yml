@@ -17,3 +17,5 @@ fields:
     schema:
       format: markdown
   label: Blog post
+pages:
+- content/posts/post1.md
