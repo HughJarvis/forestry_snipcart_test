@@ -8,8 +8,7 @@ fields:
   config:
     required: false
   label: id
-  description: Product id
-- name: name
+- name: data_item_name
   type: text
   config:
     required: false
@@ -45,12 +44,13 @@ fields:
   type: text
   config:
     required: false
-  label: Product_url
+  label: Product url
 - name: file_guid
   type: text
   config:
     required: false
   label: File guid
 pages:
-- content/products/product1.md
-- content/products/product2.md
+- content/products/Document B.md
+- content/products/Document A.md
+- content/products/Dummy Document C.md

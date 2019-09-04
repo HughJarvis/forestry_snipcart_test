@@ -2,30 +2,30 @@
   {
     "id": "000001",
     "name": "Dummy Document",
-    "price": 299.95,
+    "price": 20.00,
     "image": "/images/gouda.jpg",
     "description": "This document doesn't say much.",
-    "product_url": "http://snipcart-hugo-forestery.netlify.com",
+    "product_url": "https://alphaztest.netlify.com",
     "file_guid": "fff5b4b9-ad46-4202-88d4-81c201adae69"
   },
 
   {
     "id": "000002",
     "name": "Dummy Document 2",
-    "price": 299.95,
+    "price": 20.00,
     "image": "/images/gouda.jpg",
     "description": "This document also says very little.",
-    "product_url": "http://snipcart-hugo-forestery.netlify.com",
+    "product_url": "https://alphaztest.netlify.com",
     "file_guid": "0600a1a5-f370-4db5-ae17-bc1f25153071"
   },
 
   {
     "id": "000003",
     "name": "Dummy subscription",
-    "price": 299.95,
+    "price": 200.00,
     "image": "/images/gouda.jpg",
     "description": "Sign up and you can have it all.",
-    "product_url": "http://snipcart-hugo-forestery.netlify.com",
+    "product_url": "https://alphaztest.netlify.com",
     "file_guid": "",
     "payment_interval": "Month"
   }
