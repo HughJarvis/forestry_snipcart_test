@@ -51,5 +51,4 @@ fields:
     required: false
   label: File guid
 pages:
-- content/products/product1.md
 - content/products/Dummy Document C.md
