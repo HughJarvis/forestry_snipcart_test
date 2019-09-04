@@ -46,4 +46,5 @@ fields:
     required: false
   label: Product_url
 pages:
+- content/products/product2.md
 - content/products/product1.md
