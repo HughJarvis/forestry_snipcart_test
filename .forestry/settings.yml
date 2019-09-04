@@ -12,11 +12,6 @@ sections:
   templates:
   - product
 - type: directory
-  path: ''
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
   path: content
   label: Pages
   create: all
