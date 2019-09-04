@@ -45,3 +45,5 @@ fields:
   config:
     required: false
   label: Product_url
+pages:
+- content/products/product1.md
