@@ -23,6 +23,11 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: Product url
 - name: payment_interval
   type: text
   config:
