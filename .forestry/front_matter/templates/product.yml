@@ -3,7 +3,7 @@ label: Product
 hide_body: false
 display_field: name
 fields:
-- name: data_item_id
+- name: id
   type: text
   config:
     required: false
@@ -14,7 +14,7 @@ fields:
     required: false
   label: name
   description: Product name
-- name: data_item_price
+- name: price
   type: number
   label: Price
   description: Product price
@@ -24,7 +24,7 @@ fields:
     min: 
     max: 
     step: 
-- name: data_item_description
+- name: description
   type: textarea
   default: ''
   config:
@@ -34,18 +34,18 @@ fields:
       format: markdown
   label: Description
   description: Product description
-- name: data_item_image
+- name: image
   type: file
   config:
     maxSize: 250
   label: Image
   description: Product image
-- name: data_item_product_url
+- name: product_url
   type: text
   config:
     required: false
-  label: Product_url
-- name: data_item_file_guid
+  label: Product url
+- name: file_guid
   type: text
   config:
     required: false
